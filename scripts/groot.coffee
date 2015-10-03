@@ -13,6 +13,9 @@ module.exports = (robot) ->
   robot.hear /groot/i, (msg) ->
     msg.send "I Am Groot"
 
+  robot.hear /#jimmysimps/i, (msg) ->
+    msg.send "@jsimpson"
+
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   #
