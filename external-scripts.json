@@ -10,5 +10,6 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-equation",
-  "hubot-wolfram"
+  "hubot-wolfram",
+  "hubot-markov"
 ]
